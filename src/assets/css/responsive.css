@@ -1,0 +1,48 @@
+@media only screen and (max-width: 340px) {
+    .header_area .main-menu .navbar,
+    .header_area .main-menu .navbar .navbar-brand,
+    .site-main .contact-area .contact .contact-title,
+    .site-main .contact-area .contact .contact-title p,
+    h4,
+    .site-main .services-area,
+    .site-main .contact-area .contact {
+        padding: 2%;
+        margin: 0%;
+    }
+    .site-main .site-banner .site-title h1 {
+        font-size: 41px;
+    }
+    .site-main .contact-area .contact form .input-textbox input {
+        width: 15rem !important;
+    }
+    .site-main>.services-area .services {
+        width: 13rem;
+    }
+}
+
+@media only screen and (max-width: 792px) {
+    .site-main .about-area .about-title h2>span {
+        font-size: 31px;
+        letter-spacing: 10px;
+    }
+    .site-main .project-area .button-group button {
+        font: normal 500 18px/40px var(--jost);
+    }
+    .site-main .about-area .about-title p {
+        padding: 0%;
+    }
+}
+
+@media only screen and (max-width: 1910px) {
+    .header_area .main-menu .navbar {
+        padding: 1rem;
+    }
+    .container {
+        max-width: 90%;
+    }
+    .site-main .brand-area,
+    .site-main .services-area .services-title,
+    .site-main .about-area {
+        padding: 3% 4%;
+    }
+}

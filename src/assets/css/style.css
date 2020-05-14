@@ -222,7 +222,7 @@
 /* Start contact */
 
 .contact-area {
-    background: var(--primary-color);
+    background: var(--gradient-color);
     padding: 5rem 0;
     margin: 3rem auto;
 }
@@ -256,15 +256,9 @@
 }
 
 
-/*
-.contact-area .contact form button {
-    width: 400px;
-}
-
-
 /* End contact */
 
-*/
+
 /* Start footer */
 
 footer.footer-area {

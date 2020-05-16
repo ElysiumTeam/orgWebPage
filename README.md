@@ -20,7 +20,7 @@ npm install
 npm start
 ```
 
-Luego ingresar a la carpeta del proyecto e ingresarel comando para ejecutar el proyecto 
+Luego ingresar a la carpeta del proyecto e ingresar el comando para ejecutarlo 
 
 ```shell
 ng serve -o

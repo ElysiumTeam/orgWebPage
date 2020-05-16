@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-import { RootObject, About, Banner, Client, Portfolio, Contact, Social, Services } from '../interfaces/info-pagina.interface';
+import { RootObject, About, Banner, Client, Portfolio, Contact, Services, Social } from '../interfaces/info-pagina.interface';
 
 
 @Injectable({

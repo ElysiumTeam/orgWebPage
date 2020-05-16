@@ -1,27 +1,49 @@
-# Test
+# Elysium web page
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.7.
 
-## Development server
+Pagina oficial de Elysium team, en esta se encuentran los ervicios ofrecidos, portafolio de proyectos,
+historia del equipo y el contacto.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+### Pre-requisitos 📋
 
-## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+* Tener instalado node en tu ordenador para utilizar npm
+* Angular 9
 
-## Build
+### Instalación 🔧
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
-## Running unit tests
+Para desplegar la aplicacion se deben instalar los paquetes descritos en el `package.json`
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+```shell
+npm install
+npm start
+```
 
-## Running end-to-end tests
+Luego ingresar a la carpeta del proyecto e ingresarel comando para ejecutar el proyecto 
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+```shell
+ng serve -o
+```
 
-## Further help
+## Construido con 🛠️
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+* [Angular 9](https://angular.io/start) - Framework web
+* [Bootstrap 4](https://getbootstrap.com/) - Framework css
+* [FontAwesome 5](https://fontawesome.com/) - Libreria de iconos
+* [OWL Carousel](https://owlcarousel2.github.io/OwlCarousel2/) - Plugin Jquery para carrusel
+
+
+## Autores ✒️
+
+* **Nicolas Nahuelpan** - [shompaa](https://github.com/shompaa)
+* **Giovanni Molina** - [Giovasdf](https://github.com/Giovasdf)
+
+## Expresiones de Gratitud 🎁
+
+
+* Comenta a otros sobre este proyecto 📢
+* Invita una cerveza 🍺 o un café ☕ a alguien del equipo. 
+* Da las gracias públicamente 🤓.
+* etc.

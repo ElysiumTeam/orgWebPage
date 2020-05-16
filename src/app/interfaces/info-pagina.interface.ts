@@ -47,7 +47,7 @@ export interface Contact {
   asunto?: string;
 }
 
-interface Social {
+export interface Social {
   icono: string;
   nombre: string;
   link: string;

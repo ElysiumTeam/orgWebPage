@@ -3,34 +3,22 @@
         <div class="row mb-4">
             <div class="col text-center">
                 <h1 class="text-uppercase text-title">Portafolio</h1>
-                <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium animi odit natus sed dolor. Vero quis ipsam cupiditate alias tenetur debitis fugit pariatur. Dolores quidem quae, iure deleniti quam assumenda?</p>
+                <p class="para">{{ _is.portfolio.descripcion }}</p>
             </div>
         </div>
         <div class="container services-list">
             <div class="row grid">
-                <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="col-lg-4 col-md-6 col-sm-12" *ngFor="let page of _is.portfolio.portafolio; let i=index">
                     <div class="our-project bg-light shadow-sm">
                         <div class="img">
-                            <a class="test-popup-link" href="assets/img/page1.png">
-                                <img src="assets/img/page1.png" class="img-fluid" alt="Portfolio-1">
+                            <a class="test-popup-link" [href]="page.imagen">
+                                <img [src]="page.imagen" class="img-fluid" alt="Portfolio-{{ i }}">
                             </a>
                         </div>
                         <div class="title py-4 text-center">
-                            <h4 class="text-uppercase">Sample_Title</h4>
-                            <span class="text-secondary">sample description</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-12">
-                    <div class="our-project bg-light shadow-sm">
-                        <div class="img">
-                            <a class="test-popup-link" href="assets/img/page1.png">
-                                <img src="assets/img/page1.png" class="img-fluid" alt="Portfolio-1">
-                            </a>
-                        </div>
-                        <div class="title py-4 text-center">
-                            <h4 class="text-uppercase">Sample_Title</h4>
-                            <span class="text-secondary">sample description</span>
+                            <h4 class="text-uppercase">{{ page.nombre }}</h4>
+                            <span class="text-secondary">{{ page.descripcion }}</span>
+                            <a [href]="page.link" target="_blank" class="btn mt-2 btn-sm button secondary-button"><i class="fas fa-sign-out-alt"></i> Visitar</a>
                         </div>
                     </div>
                 </div>

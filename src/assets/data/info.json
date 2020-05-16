@@ -1,0 +1,90 @@
+{
+    "banner": {
+        "bienvenida": "Bienvenidos a",
+        "subtext": "Expertos en desarrollo y asesorias informáticas.",
+        "imagen": "assets/img/banner.svg"
+    },
+    "about": {
+        "imagen": "assets/img/about.svg",
+        "titulo": "Sobre nosotros",
+        "parrafo1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus ea perferendis architecto odio illum tempora atque magni ad quasi aut.",
+        "parrafo2": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here ', making it look like readable English."
+    },
+    "services": {
+        "titulo": "Servicios",
+        "descripcion": "",
+        "servicios": [{
+                "imagen": "assets/img/icons/dev.svg",
+                "titulo": "Desarrollo web",
+                "descripcion": ""
+            },
+            {
+                "imagen": "assets/img/icons/ux.svg",
+                "titulo": "UX & UI",
+                "descripcion": ""
+            },
+            {
+                "imagen": "assets/img/icons/web.svg",
+                "titulo": "Diseño web",
+                "descripcion": ""
+            },
+            {
+                "imagen": "assets/img/icons/seo.svg",
+                "titulo": "Seo",
+                "descripcion": ""
+            }
+        ]
+    },
+    "clients": [{
+            "imagen": "https://res.cloudinary.com/dxfq3iotg/image/upload/v1561819026/brands_1.jpg",
+            "titulo": "BO&PLAY"
+        },
+        {
+            "imagen": "https://res.cloudinary.com/dxfq3iotg/image/upload/v1561819026/brands_2.jpg",
+            "titulo": "BO&PLAY"
+        },
+        {
+            "imagen": "https://res.cloudinary.com/dxfq3iotg/image/upload/v1561819026/brands_3.jpg",
+            "titulo": "BO&PLAY"
+        }, {
+            "imagen": "https://res.cloudinary.com/dxfq3iotg/image/upload/v1561819026/brands_4.jpg",
+            "titulo": "BO&PLAY"
+        }
+    ],
+    "portfolio": {
+        "descripcion": "askdjaskd asdajsdlkas daskjfaslkfnmkbnd ms weroieupofsnd fsdjdj  sjdjd sjasndfasnf a",
+        "portafolio": [{
+                "imagen": "assets/img/page1.png",
+                "nombre": "Sample Text",
+                "descripcion": "",
+                "link": "https://www.google.cl"
+            },
+            {
+                "imagen": "assets/img/page1.png",
+                "nombre": "Sample Text",
+                "descripcion": "",
+                "link": ""
+            },
+            {
+                "imagen": "assets/img/page1.png",
+                "nombre": "Sample Text",
+                "descripcion": "",
+                "link": ""
+            }
+        ]
+    },
+    "contact": {
+        "descripcion": ""
+    },
+    "social": [{
+            "icono": "fab fa-github",
+            "nombre": "Github",
+            "link": ""
+        },
+        {
+            "icono": "fab fa-twitter ",
+            "nombre": "Twitter",
+            "link": ""
+        }
+    ]
+}

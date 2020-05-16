@@ -3,22 +3,25 @@
         <div class="row">
             <div class="col text-center contact-title">
                 <h4 class="text-uppercase">Contactanos!</h4>
-                <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, incidunt voluptas ex labore, nulla delectus sunt facilis recusandae architecto blanditiis repellat, a doloribus! Quod necessitatibus exercitationem deserunt nesciunt architecto
-                    provident.
-                </p>
+                <p class="para">{{ _is.contact.descripcion }}</p>
             </div>
         </div>
         <div class="d-sm-flex align-content-center justify-content-center">
             <div class="col-12">
-                <form>
+                <form (ngSubmit)="processForm()">
                     <div class="row d-flex flex-row flex-wrap mb-2 form-group">
                         <div class="col input-textbox">
-                            <input type="text" id="email" class="form-control" placeholder="Correo">
+                            <input type="text" [(ngModel)]="nombre" name="nombre" id="nombre" class="form-control" placeholder="Nombre">
                         </div>
                     </div>
                     <div class="row d-flex flex-row flex-wrap mb-2 form-group">
                         <div class="col input-textbox">
-                            <textarea name="msj" id="msj" cols="20" rows="10" class="form-control" placeholder="Mensaje"></textarea>
+                            <input type="email" [(ngModel)]="email" name="email" id="email" class="form-control" placeholder="Correo">
+                        </div>
+                    </div>
+                    <div class="row d-flex flex-row flex-wrap mb-2 form-group">
+                        <div class="col input-textbox">
+                            <textarea name="msj" [(ngModel)]="msj" name="msj" id="msj" cols="20" rows="10" class="form-control" placeholder="Mensaje"></textarea>
                         </div>
                     </div>
                     <div class="row d-flex flex-row flex-wrap">

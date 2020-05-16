@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { InfoService } from '../../services/info.service';
+import { Banner } from '../../interfaces/info-pagina.interface';
 
 @Component({
   selector: 'app-banner',
@@ -7,7 +9,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class BannerComponent implements OnInit {
 
-  constructor() { }
+  constructor(public _is: InfoService) {
+  }
 
   ngOnInit(): void {
   }

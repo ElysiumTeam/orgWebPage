@@ -1,6 +1,6 @@
 <div class="social-icons">
-    <span><i class="fab fa-github fa-2x"></i></span>
-    <span><i class="fab fa-twitter fa-2x"></i></span>
-    <span><i class="fab fa-twitch fa-2x"></i></span>
-    <span><i class="far fa-envelope fa-2x"></i></span>
+    <div *ngFor="let social of _is.social">
+        <a style="text-decoration: none;" [href]="social.link"><i class="{{ social.icono }} fa-2x text-dark" [title]="social.nombre"></i></a>
+    </div>
+    <a style="text-decoration: none;" href="mailto:nicolas_nahuelpan@hotmail.com"><i class="far fa-envelope fa-2x text-dark"></i></a>
 </div>
